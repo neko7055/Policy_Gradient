@@ -66,7 +66,7 @@ if __name__ == "__main__":
                 cumulative = cumulative * gamma + r[i]
                 discount_rewards[i] = cumulative
 
-            # Standardization the TD learning state value for controlling the variance of policy gradient
+            # Standardize the TD learning state value for controlling the variance of policy gradient
             discount_rewards -= np.mean(discount_rewards)
             discount_rewards /= np.std(discount_rewards)
             R.append(discount_rewards)
