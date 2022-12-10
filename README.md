@@ -9,4 +9,6 @@ Demo : https://youtu.be/YavE4ip1zSE
 
 ## discrete action space
 
-coming soon
+Demo : https://youtu.be/XKkDFxddR44
+
+![image](https://github.com/neko7055/Policy_Gradient/blob/main/discrete_result/CartPole-v1_PG.png)
